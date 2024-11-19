@@ -28,8 +28,11 @@ public class CartItem {
 
     private int quantity;
 
+    @ElementCollection
+    @CollectionTable(name = "cart_item_ingredients", joinColumns = @JoinColumn(name = "cart_item_id"))
+    @Column(name = "ingredient")
     private List<String> ingredients;
-
+    private Long customerId;
     private Long totalPrice;
 
 }
