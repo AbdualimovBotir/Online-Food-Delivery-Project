@@ -50,9 +50,9 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>42.2.18</version> <!-- Eng so‘nggi versiyani ishlatishingiz mumkin -->
+		        <groupId>org.postgresql</groupId>
+		        <artifactId>postgresql</artifactId>
+		        <version>42.6.0</version> <!-- So'nggi versiyani tekshirib foydalaning -->
 		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
